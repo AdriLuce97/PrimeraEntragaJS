@@ -11,5 +11,7 @@ let cantidad = parseInt(prompt("Ingrese la cantidad de bolsones que necesita"));
 let descuento = parseInt(prompt("Ingresa el porcentaje de descuento que figura en la tarjeta")) 
 
 let precioFinal = calcularPrecio(alimento, cantidad, descuento, envio);
+while (cantidad <= 0)
+    alert("Gracias por comunicarse con alimentitos");
 alert("El precio total de tu compra es $" + precioFinal);
 alert("¡Gacias, cuidemos a los animalitos!");
