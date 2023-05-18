@@ -14,4 +14,4 @@ let precioFinal = calcularPrecio(alimento, cantidad, descuento, envio);
 while (cantidad <= 0)
     alert("Gracias por comunicarse con alimentitos");
 alert("El precio total de tu compra es $" + precioFinal);
-alert("¡Gacias, cuidemos a los animalitos!");
+alert("¡Gacias, cuidemos a los animalitoos!");
